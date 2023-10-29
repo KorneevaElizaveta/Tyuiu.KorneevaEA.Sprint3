@@ -8,7 +8,7 @@ namespace Tyuiu.KorneevaEA.Sprint3.Task4.V12.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidCalculate()
         {
             DataService ds = new DataService();
             Assert.AreEqual(-606.317, ds.Calculate(-5, 5));
